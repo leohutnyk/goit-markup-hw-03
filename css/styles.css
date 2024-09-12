@@ -134,10 +134,12 @@ a {
 
 /* ============= HERO SECTION STYLES ============= */
 .hero-section {
+  padding: 188px 472px;
   background-color: #2e2f42;
 }
 
 .main-title {
+  margin-bottom: 48px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -147,6 +149,12 @@ a {
 }
 
 .order-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #4d5ae5;
+  border-radius: 4px;
+  padding: 16px 32px;
   background-color: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
@@ -162,6 +170,10 @@ a {
 }
 /* ============= /HERO SECTION STYLES ============= */
 /* =============  BENEFITS SECTION STYLES ============= */
+
+.benefits-list {
+  display: flex;
+}
 
 .section-title {
   font-weight: 700;
@@ -200,6 +212,10 @@ a {
   background-color: #f4f4fd;
 }
 
+.team-member-list {
+  display: flex;
+}
+
 
 .team-member-item {
   background-color: #ffffff;
@@ -226,6 +242,11 @@ a {
 /* ============= /TEAM SECTION STYLES ============= */
 
 /* ============= PORTFOLIO SECTION STYLES ============= */
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+}
 
 .portfolio-item-title {
   font-weight: 500;
