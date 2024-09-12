@@ -276,6 +276,10 @@ a {
   row-gap: 48px;
 }
 
+.porfolio-list-item {
+  border: 1px solid #e7e9fc;
+}
+
 .portfolio-card {
   padding-top: 32px;
   padding-left: 16px;
