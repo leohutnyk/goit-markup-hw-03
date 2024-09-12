@@ -170,9 +170,13 @@ a {
 }
 /* ============= /HERO SECTION STYLES ============= */
 /* =============  BENEFITS SECTION STYLES ============= */
-
+.benefits-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .benefits-list {
   display: flex;
+  column-gap: 24px;
 }
 
 .section-title {
@@ -187,9 +191,11 @@ a {
 
 .team-memeber-item {
   background-color: #ffffff;
+  width: calc((100% - 3 * 24px) / 4);
 }
 
 .benefits-list-title {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -209,19 +215,30 @@ a {
 /* ============= TEAM SECTION STYLES ============= */
 
 .team-section {
+  padding: 120px 0;
   background-color: #f4f4fd;
+}
+
+.team-section-title {
+  margin-bottom: 72px;
 }
 
 .team-member-list {
   display: flex;
+  column-gap: 24px;
 }
-
 
 .team-member-item {
   background-color: #ffffff;
+  width: calc((100% - 3 * 24px) / 4);
+}
+
+.team-member-photo {
+  margin-bottom: 32px;
 }
 
 .team-member-name {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -243,9 +260,26 @@ a {
 
 /* ============= PORTFOLIO SECTION STYLES ============= */
 
+.portfolio-section {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.portfolio-title {
+  margin-bottom: 72px;
+}
+
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.portfolio-card {
+  padding-top: 32px;
+  padding-left: 16px;
+  padding-bottom: 64px;
 }
 
 .portfolio-item-title {
@@ -272,7 +306,19 @@ a {
   background-color: #2e2f42;
 }
 
+.footer-container {
+  padding-top: 100px ;
+  padding-bottom: 100px ;
+  padding-left: 156px;
+}
+
+.footer-content {
+  max-width: 264px;
+}
+
 .footer-logo {
+  display: block;
+  margin-bottom: 16px;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
