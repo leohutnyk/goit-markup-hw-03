@@ -29,6 +29,10 @@ a {
   text-decoration: none;
 }
 
+img {
+  display: block;
+}
+
 /* common */
 
 .container {
@@ -193,9 +197,9 @@ a {
   text-transform: capitalize;
 }
 
-.team-memeber-item {
+.team-member-item {
   background-color: #ffffff;
-  flex-basis: calc((100%-72px) / 4);
+  width: calc((100% - 3 * 24px) / 4);
 }
 
 .benefits-list-title {
@@ -292,6 +296,7 @@ a {
 .portfolio-card {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .portfolio-item-title {
