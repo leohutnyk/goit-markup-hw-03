@@ -198,7 +198,7 @@ img {
   gap: 24px;
 }
 
-.team-member-item {
+.benefits-list-item {
   background-color: #ffffff;
   width: calc((100% - 3 * 24px) / 4);
 }
