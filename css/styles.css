@@ -66,6 +66,7 @@ a {
 
 .page-nav {
   display: flex;
+  align-items: center;
 }
 
 .menu {
@@ -134,12 +135,13 @@ a {
 
 /* ============= HERO SECTION STYLES ============= */
 .hero-section {
-  padding: 188px 472px;
+  padding: 188px 0px;
   background-color: #2e2f42;
 }
 
 .main-title {
-  margin-bottom: 48px;
+  margin: 0 auto 48px auto;
+  max-width: 496px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -149,10 +151,12 @@ a {
 }
 
 .order-button {
+  min-width: 169px;
+  height: 56px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid #4d5ae5;
+  border: none;
   border-radius: 4px;
   padding: 16px 32px;
   background-color: #4d5ae5;
@@ -176,7 +180,7 @@ a {
 }
 .benefits-list {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .section-title {
@@ -191,7 +195,7 @@ a {
 
 .team-memeber-item {
   background-color: #ffffff;
-  width: calc((100% - 3 * 24px) / 4);
+  flex-basis: calc((100%-72px) / 4);
 }
 
 .benefits-list-title {
@@ -225,16 +229,21 @@ a {
 
 .team-member-list {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .team-member-item {
   background-color: #ffffff;
-  width: calc((100% - 3 * 24px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-member-photo {
   margin-bottom: 32px;
+}
+
+.team-member-card {
+  padding: 32px 0;
 }
 
 .team-member-name {
@@ -261,8 +270,8 @@ a {
 /* ============= PORTFOLIO SECTION STYLES ============= */
 
 .portfolio-section {
-  margin-top: 120px;
-  margin-bottom: 120px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .portfolio-title {
@@ -277,18 +286,16 @@ a {
 }
 
 .porfolio-list-item {
-  border-bottom: 1px solid #e7e9fc;
-  border-left: 1px solid #e7e9fc;
-  border-right: 1px solid #e7e9fc;
+  width: calc((100% - 48px) / 3);
 }
 
 .portfolio-card {
-  padding-top: 32px;
-  padding-left: 16px;
-  padding-bottom: 64px;
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
 }
 
 .portfolio-item-title {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -309,6 +316,7 @@ a {
 /* ============= FOOTER STYLES ============= */
 
 .page-footer {
+  padding: 100px 0;
   background-color: #2e2f42;
 }
 
@@ -318,12 +326,8 @@ a {
   padding-left: 156px;
 }
 
-.footer-content {
-  max-width: 264px;
-}
-
 .footer-logo {
-  display: block;
+  display: inline-block;
   margin-bottom: 16px;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -339,6 +343,7 @@ a {
 }
 
 .page-footer-text {
+  max-width: 264px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
